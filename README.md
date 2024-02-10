@@ -32,7 +32,7 @@ Join our community, contribute your skills, and help us make this repository a v
 **Contact:**
 
 * Feel free to open an issue for any questions, suggestions, or feedback.
-* You can also reach out to us on [your preferred communication platform, e.g., Discord, forum].
+* You can also reach out to us on www.developersstack.com.
 
 **License:**
 
