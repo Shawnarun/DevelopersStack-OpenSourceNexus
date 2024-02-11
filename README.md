@@ -1,3 +1,5 @@
+![OpenSourceNexus Thumbnail](thumbnail.jpeg)
+
 # OpenSourceNexus
 
 Welcome to OpenSourceNexus! This project aims to provide a platform for developers to contribute and collaborate on open-source projects in various programming languages.
