@@ -19,8 +19,7 @@ Explore different categories of contributions in OpenSourceNexus:
    - Level up your skills with the "Medium" category, where contributors tackle competitive programming challenges. From algorithmic puzzles to data structures exercises, this category is designed to sharpen problem-solving abilities and improve coding efficiency. Join the competition, solve challenges, and elevate your coding prowess.
 
 3. **Hard - Advanced Concepts & Challenges:**
-   - Take your skills to the next level in the "Hard" category! Dive into advanced programming concepts and tackle real-world challenges. From system design and machine learning to cryptography and optimization problems, this category pushes the boundaries of technical expertise and fosters creativity in problem-solving.
-
+   - we offer the Hard category. Here, contributors can tackle challenging projects that delve deep into the realm of complex algorithms and sophisticated data structures. From intricate graph algorithms to advanced dynamic programming techniques, this category is designed to push your problem-solving skills to the next level. Whether you're passionate about optimizing code efficiency, mastering algorithmic paradigms, or solving real-world challenges with precision and elegance, you'll find ample opportunities to sharpen your skills and expand your knowledge in the Hard category.
 ## License
 
 This project is licensed under the terms of the [MIT License](LICENSE).
