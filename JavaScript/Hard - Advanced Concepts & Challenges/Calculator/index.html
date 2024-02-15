@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Velocity calculator</title>
+</head>
+<body>
+  <div class="main">
+    <p>Calculator</p>
+    <div class="calculator">
+      <div class="blue md"></div>
+      <div class="black md"></div>
+      <form>
+        <div class="speed label">
+          <label for="speed">Speed - </label>
+          <input type="text" placeholder="Speed (m/s)" id="speed">  
+        </div>
+        <div class="distance label">
+          <label for="distance">Distance -</label>
+          <input type="text" placeholder="Distance (m)" id="distance">
+        </div> 
+        <div class="time label">
+          <label for="time">Time -</label>
+          <input type="text" placeholder="Time (s)" id="time">
+        </div>  
+      </form>
+      <div class="button">
+      <div class="find-button">
+        <button id="answer" onclick="results()">Find</button>
+      </div>
+      <div class="units">
+        <button id="kmh" onclick="kmh()">km/h</button>
+      </div>
+      <div class="new-button">
+        <button id="new" onclick="clear_data()">New</button>
+      </div>
+    </div>
+    </div>
+    <div class="blue sm"></div>
+    <div class="black sm"></div>
+
+  <script src="index.js"> 
+  </script>
+</body>
+</html>
