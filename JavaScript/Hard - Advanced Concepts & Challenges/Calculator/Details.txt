@@ -1,0 +1,6 @@
+/*
+ * Author : Keerthika04
+ * Email : jkeerthi144@gmail.com
+ * Date : 15th of Feb 2024
+ * Description : Speed Calculator (you can calculate speed, distance or time by giving 2 inputs in the mentioned field)
+ */
