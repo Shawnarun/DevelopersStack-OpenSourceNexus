@@ -1,0 +1,8 @@
+{
+    "C_Cpp.default.compilerPath": "c:\\Users\\h\\Desktop\\open nexus project\\DevelopersStack-OpenSourceNexus\\C++\\Easy - Basic Programs\\MultiplicationTableGenerator.cpp",
+    "C_Cpp.errorSquiggles": "disabled",
+    "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
+        "clang-diagnostic-error",
+        "clang-diagnostic-error"
+    ]
+}
