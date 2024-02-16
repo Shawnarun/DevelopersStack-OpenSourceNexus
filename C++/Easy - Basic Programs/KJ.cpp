@@ -1,3 +1,11 @@
+/*
+ * Author : Keerthika04
+ * Email : jkeerthi144@gmail.com
+ * Date : 16th of Feb 2024
+ * Description : Calculation of circle area, perimeter and volume of cone
+ */
+
+
 #include <iostream> 
 using namespace std;
 
