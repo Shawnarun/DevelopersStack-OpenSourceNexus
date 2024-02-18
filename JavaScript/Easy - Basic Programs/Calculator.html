@@ -1,0 +1,129 @@
+/*
+ * Author : KPriyandhini
+ * Email : priyandhinip@gmail.com
+ * Date : 17th of Feb 2024
+ * Description : In this program, the simple calculator. It allows you to perform basic arithmetic operations.
+ */
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <style>
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<center>
+<body>
+
+    <h2>Simple Calculator</h2>
+    
+    <input type="text" id="display" readonly>
+
+    <div>
+        <button onclick="appendNumber('1')">1</button>
+        <button onclick="appendNumber('2')">2</button>
+        <button onclick="appendNumber('3')">3</button>
+        <button onclick="setOperator('+')">+</button>
+    </div>
+
+    <div>
+        <button onclick="appendNumber('4')">4</button>
+        <button onclick="appendNumber('5')">5</button>
+        <button onclick="appendNumber('6')">6</button>
+        <button onclick="setOperator('-')">-</button>
+    </div>
+
+    <div>
+        <button onclick="appendNumber('7')">7</button>
+        <button onclick="appendNumber('8')">8</button>
+        <button onclick="appendNumber('9')">9</button>
+        <button onclick="setOperator('*')">*</button>
+    </div>
+
+    <div>
+        <button onclick="appendNumber('0')">0</button>
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="calculateResult()">=</button>
+        <button onclick="setOperator('/')">/</button>
+    </div>
+</center>
+
+    <script>
+        let display = document.getElementById('display');
+        let currentInput = '';
+        let operator = '';
+        let firstOperand = null;
+
+        function appendNumber(number) {
+            currentInput += number;
+            updateDisplay();
+        }
+
+        function setOperator(newOperator) {
+            if (currentInput !== '') {
+                if (firstOperand === null) {
+                    firstOperand = parseFloat(currentInput);
+                    currentInput = '';
+                    operator = newOperator;
+                    updateDisplay();
+                } else {
+                    calculateResult();
+                    operator = newOperator;
+                }
+            }
+        }
+
+        function calculateResult() {
+            if (currentInput !== '') {
+                const secondOperand = parseFloat(currentInput);
+                switch (operator) {
+                    case '+':
+                        currentInput = (firstOperand + secondOperand).toString();
+                        break;
+                    case '-':
+                        currentInput = (firstOperand - secondOperand).toString();
+                        break;
+                    case '*':
+                        currentInput = (firstOperand * secondOperand).toString();
+                        break;
+                    case '/':
+                        if (secondOperand !== 0) {
+                            currentInput = (firstOperand / secondOperand).toString();
+                        } else {
+                            currentInput = 'Error';
+                        }
+                        break;
+                    default:
+                        break;
+                }
+                operator = '';
+                firstOperand = null;
+                updateDisplay();
+            }
+        }
+
+        function clearDisplay() {
+            currentInput = '';
+            operator = '';
+            firstOperand = null;
+            updateDisplay();
+        }
+
+        function updateDisplay() {
+            display.value = currentInput !== '' ? currentInput : '0';
+        }
+    </script>
+
+</body>
+</html>
