@@ -1,0 +1,6 @@
+/*
+ * Author : Keerthika04
+ * Email : jkeerthi144@gmail.com
+ * Date : 18th of Feb 2024
+ * Description : Console-Based Student Management System with Database Connectivity
+ */
