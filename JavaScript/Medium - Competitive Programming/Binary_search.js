@@ -1,10 +1,10 @@
+
 /*
 * Author :Thayuran
 * Email : thayuran1998@gmail.com
 * Date : 16 feb 2024
 * Description : Binary search
 */
-
 
 var n = 5,
   k = 5;
