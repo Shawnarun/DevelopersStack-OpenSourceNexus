@@ -2,7 +2,7 @@
 * Author : thushaonline
 * Gmail : rajthusha99@gmail.com
 * Date : 19.02.2024
-* Description :  Abstract class
+* Description :  Abstract Class
 */
 
 abstract class Shape {
