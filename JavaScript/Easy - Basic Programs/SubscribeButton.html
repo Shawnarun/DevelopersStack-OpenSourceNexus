@@ -1,0 +1,48 @@
+/*
+ * Author : Priyandhini
+ * Email : priyandhinip@gmail.com
+ * Date : 21th of Feb 2024
+ * Description : simple HTML structure with a heading, paragraph, a "Subscribe" button, and a paragraph for subscription status.
+ */
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscribe Button</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Subscribe to our DeveloperStack YouTube Channel</h1>
+  <p>Stay updated with our latest Content and updates.</p>
+
+  <button id="subscribeButton" onclick="subscribe()" style="background-color:red ;">Subscribe</button>
+  <p id="subscriptionStatus"></p>
+
+  <script>
+    function subscribe() {
+      // Simulate subscription logic
+      // You can replace this with actual subscription code, API calls, etc.
+      // For simplicity, here we just show a success message.
+      document.getElementById("subscriptionStatus").innerText = "Thank you for subscribing!";
+      subscribeButton.style.backgroundColor="white";
+      subscribeButton.textContent="Subscribed";
+      
+    }
+  </script>
+
+</body>
+</html>
