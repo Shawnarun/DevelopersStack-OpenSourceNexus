@@ -1,3 +1,10 @@
+/*
+* Author :Thayuran
+* Email : thayuran1998@gmail.com
+* Date : 24 feb 2024
+* Description : Simple ATM Cash withdraw
+*/
+
 import java.util.Scanner;
 
 public class ATM {
