@@ -1,7 +1,7 @@
 
 /**
 Author: AyshaCader
-Email: ayshacader20001@gmail.com
+Email: ayshacader2001@gmail.com
 Date: 26/02/2024
 Description: Converting fahrenheit to celcius or celcius to fahrenheit
  */
