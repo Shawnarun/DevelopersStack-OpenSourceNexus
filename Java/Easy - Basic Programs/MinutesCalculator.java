@@ -1,3 +1,10 @@
+/*
+* Author :Thayuran
+* Email : thayuran1998@gmail.com
+* Date : 25 feb 2024
+* Description : calculates the number of minutes within a given range of dates
+*/
+
 import java.time.LocalDateTime;
 import java.time.Duration;
 import java.time.format.DateTimeFormatter;
