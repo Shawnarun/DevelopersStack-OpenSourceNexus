@@ -1,6 +1,6 @@
 /**
 Author: AyshaCader
-Email: ayshacader20001@gmail.com
+Email: ayshacader2001@gmail.com
 Date: 23/02/2024
 Description: Get the summation of an array
  */
