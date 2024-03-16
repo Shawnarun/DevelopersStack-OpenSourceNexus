@@ -23,4 +23,5 @@ if (hour >= 0 && hour < 13) {
   console.log("Good Night");
 }
 
+
 // Output -> Good Morning
