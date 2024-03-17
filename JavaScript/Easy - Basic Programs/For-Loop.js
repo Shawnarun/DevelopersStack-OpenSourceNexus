@@ -53,5 +53,5 @@ for (let i = 1; i <= 10; i++) {
 // Explanation of the code above
 // i = 1
 // i <= 10
-// i++ is equivalent to i + 1 = 2, then i becomes 2
-// So, loop will continue until i is equal to 10
+// If i is not divisible by 2, i will be logged to the console.
+// Since we are checking for odd numbers, we need to use i % 2 !== 0 instead of i % 2 === 0 because 0 is also an even number.
