@@ -29,3 +29,29 @@ for (let i = 1; i <= 10; i++) {
 // i <= 10
 // i++ is equivalent to i + 1 = 2, then i becomes 2
 // So, loop will continue until i is equal to 10
+
+
+
+
+/* =========== Odd Numbers ==========*/
+
+for (let i = 1; i <= 10; i++) {
+  if (i % 2 !== 0) {
+    console.log(i);
+  }
+}
+
+/* Output:
+1
+3
+5
+7
+9
+*/
+
+
+// Explanation of the code above
+// i = 1
+// i <= 10
+// i++ is equivalent to i + 1 = 2, then i becomes 2
+// So, loop will continue until i is equal to 10
