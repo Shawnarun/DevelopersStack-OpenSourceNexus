@@ -8,8 +8,9 @@ Description: Multiple Two Number
  import java.util.Scanner;
 public class MulTwoNumber {
     public static void main(String [] args){
-        Scanner sc = new Scanner(System.in);
         
+        Scanner sc = new Scanner(System.in);
+
         System.out.println("Enter First Number");
         int Number_1 = sc.nextInt();
 
