@@ -4,6 +4,12 @@
 * Date : 26 feb 2024
 * Description : Calculate the Electricity Bill
 */
+/*
+ * Author : musaraf
+ * Email : nowsathmusaraf037@gmail.com
+ * Date : 24/06/2024
+ * Description : Scanner closed
+ */
 import java.util.*; 
 
 class ElectricityBill { 
@@ -38,5 +44,7 @@ class ElectricityBill {
             billpay = 64 * 38.0 + 32 * 41.0 + 32 * 59.0 + (units - 128) * 59.0;
 
         System.out.println("Bill to pay: Rs " + billpay); 
+
+        sc.close();
     } 
 }  
