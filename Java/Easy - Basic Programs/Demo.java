@@ -5,6 +5,13 @@ Date: 22/02/2024
 Description: Program to check whether the input year is leap or not
  */
 
+ /*
+ * Author : musaraf
+ * Email : nowsathmusaraf037@gmail.com
+ * Date : 24/06/2024
+ * Description : Error Correction
+ */
+
 import java.util.Scanner;
 public class Demo {
 
