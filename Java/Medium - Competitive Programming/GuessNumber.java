@@ -5,6 +5,12 @@
 * Description : simple console game where you have to guess a hidden number
 */
 
+/*
+ * Author : musaraf
+ * Email : nowsathmusaraf037@gmail.com
+ * Date : 25/06/2024
+ * Description : Remove Warning Message
+ */
 import java.util.Scanner;
 import java.util.Random;
 
@@ -35,5 +41,6 @@ public class GuessNumber {
                 outOfGuess = true;
             }
         }
+        input.close();
     }
 }
