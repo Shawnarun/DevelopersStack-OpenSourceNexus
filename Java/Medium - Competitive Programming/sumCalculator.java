@@ -5,9 +5,16 @@
 * Description :  SumToNumbers
 */
 
+/*
+ * Author : musaraf
+ * email : nowsathmusaraf037@gmial.com
+ * Date : 25/06/2024
+ * Description : Error Correction
+ */
+
 import java.util.Scanner;
 
-public class SumCalculator {
+public class sumCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
