@@ -5,9 +5,16 @@
 * Description :  Operators
 */
 
+/*
+ * Auhtor : musaraf
+ * Email : nowsathmusaraf037@gmail.com
+ * Date : 25/06/2024
+ * Description : error correction 
+ */
+
 import java.util.Scanner;
 
-public class Calculator {
+public class calculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         

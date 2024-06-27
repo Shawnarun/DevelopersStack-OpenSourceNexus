@@ -4,6 +4,12 @@
 * Date : 16.02.2024
 * Description : Greeting Program
 */
+/*
+ * Author : musaraf
+ * Email : nowsathmusaraf037@gmail.com
+ * Date : 24/06/2024
+ * Description : Removing warning messages
+ */
 
 import java.util.Scanner;
 
@@ -15,5 +21,7 @@ public class greeting {
         String name = scanner.nextLine();
 
         System.out.println("Nice to meet you, " + name + "!");
+
+        scanner.close();
     }
 }
