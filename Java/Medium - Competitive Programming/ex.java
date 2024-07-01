@@ -5,7 +5,14 @@
 * Description : Thread Class
 */
 
-public class Ex {
+/*
+ * Author : musaraf
+ * Email : nowsathmusaraf037@gmail.com
+ * Date : 25/06/2024
+ * Description : Error Correction
+ */
+
+public class ex {
 public static class Thread1 extends Thread {
 public void run() {
     System.out.println("A");

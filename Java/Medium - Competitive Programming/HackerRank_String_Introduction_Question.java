@@ -8,7 +8,13 @@
  *                  Capitalize the first letter in  and  and print them on a single line, separated by a space.
  */
 
-import java.io.*;
+ /*
+ * Author : musaraf
+ * Email : nowsathmusaraf037@gmail.com
+ * Date : 25/06/2024
+ * Description : Warning Message removed
+ */
+
 import java.util.*;
 
 public class HackerRank_String_Introduction_Question {
@@ -30,6 +36,7 @@ public class HackerRank_String_Introduction_Question {
         String Out = A.substring(0, 1).toUpperCase() + A.substring(1) + " " + B.substring(0, 1).toUpperCase() + B.substring(1);
         System.out.println(Out);
         
+        sc.close();
     }
 }
 

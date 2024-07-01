@@ -5,7 +5,12 @@ Email: thayuran1998@gmail.com
 Date: 08/03/2024
 Description: Word Counter program 
  */
-
+/*
+ * Author : musaraf
+ * Email : nowsathmusaraf037@gmail.com
+ * Date : 24/06/2024
+ * Description : Remove 4 Warning message
+ */
 
 import java.util.Scanner;
 
@@ -44,6 +49,7 @@ public class WordCounter
                    System.exit(0);
             }
         }
+        scanner.close();
     }
 
     public static void displayMenuOption() 
@@ -67,6 +73,8 @@ public class WordCounter
         int wordCount = words.length;
         System.out.println("Number of words in your text = " + wordCount);
 
+        scanner.close();
+
     }
 
     public static void charCountWithSpaces()
@@ -77,6 +85,8 @@ public class WordCounter
 
         int charCount = text.length();
         System.out.println("Number of characters in your text including white spaces = " + charCount);
+
+        scanner.close();
     }
 
     public static void charCountWithoutSpaces()
@@ -87,6 +97,8 @@ public class WordCounter
 
         int charCount = text.replaceAll("\\s+", "").length();
         System.out.println("Number of characters in your text without white spaces = " + charCount);
+
+        scanner.close();
     }
 		
 }

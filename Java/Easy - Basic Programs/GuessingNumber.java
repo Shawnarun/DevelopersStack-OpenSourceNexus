@@ -45,7 +45,7 @@ public class GuessingNumber {
             }
         }
 
-
+        sc.close();
     }
 
 }

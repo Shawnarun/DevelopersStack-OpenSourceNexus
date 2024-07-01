@@ -6,6 +6,13 @@ Date: 26/02/2024
 Description: Converting fahrenheit to celcius or celcius to fahrenheit
  */
 
+ /*
+  * Author : musaraf
+  * Email : nowsathmusaraf037@gmail.com
+  * Date : 24/06/2024
+  * Description : removing warning message
+  */
+
 import java.util.*;
 
 public class Temperature {
@@ -41,7 +48,7 @@ public class Temperature {
         } else {
             System.out.println("Incorrect entry");
         }
-
+        s.close();
     }
 
 }
