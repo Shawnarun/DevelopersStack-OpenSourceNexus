@@ -9,8 +9,8 @@
 namespace AddTwoNumber{
     internal class program{
         static void main(string [] args){
-            int a = onvert.ToInt32(Console.ReadLine());
-            int b = onvert.ToInt32(Console.ReadLine());
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
             int c = a + b;
 
             Console.WriteLine(c);
