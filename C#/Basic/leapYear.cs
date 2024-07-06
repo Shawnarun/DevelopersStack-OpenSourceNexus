@@ -1,8 +1,8 @@
 /*
  * Author : musaraf
  * Email : nowsathmusaraf037@gmail.com
- * Date : 24/06/2024
- * Description : Error Correction
+ * Date : 06/07/2024
+ * Description : Leap Year
  */
 
  namespace leapYear{
